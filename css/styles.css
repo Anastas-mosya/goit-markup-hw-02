@@ -50,12 +50,13 @@ body {
 .logo-blak {
   color: #000;
 }
+
 .header-link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: nav(--header-text-color);
+  color: var(--header-text-color);
 }
 .header-link:hover,
 .header-link:focus {
@@ -66,7 +67,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: nan(--main-text-color);
+  color: var(--main-text-color);
 }
 .header-contact:hover,
 .header-contact:focus {
