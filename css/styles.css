@@ -38,6 +38,17 @@ body {
 .link {
   text-decoration: none;
 }
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  overflow: hidden;
+}
 /*--------HEADER----------------*/
 .header-logo {
   font-family: Raleway, sans-serif;
@@ -97,18 +108,10 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--main-btn-color);
+  cursor: pointer;
 }
 /*--------FEATURES----------------*/
-.visually-hidden {
-  position: absolute;
-  clip: rect(0 0 0 0);
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  overflow: hidden;
-}
+
 .features-title {
   font-weight: 700;
   font-size: 14px;
@@ -173,4 +176,15 @@ body {
 .footer-contact:hover,
 .footer-contact:focus {
   color: var(--accent-color);
+}
+/*--------PORTFOLIO----------------*/
+.imajes-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--main-title-color);
+}
+.buttons-list {
+  cursor: pointer;
 }
