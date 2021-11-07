@@ -185,6 +185,6 @@ body {
   letter-spacing: 0.06em;
   color: var(--main-title-color);
 }
-.buttons-list {
+.buttons-btn {
   cursor: pointer;
 }
